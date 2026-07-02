@@ -59,5 +59,5 @@ To simulate a real-world collaborative environment, I follow these steps for eve
 *   **Interface:** Git CLI (Command Line Interface) / Terminal
 
 
-> 💡 **Note to Reviewers / Hiring Managers:** 
+>**Kindly Note to Reviewers / Hiring Managers:** 
 > This repository is intentionally dynamic and filled with experimental branches, merge logs, and PR history. It stands as proof that I understand the vital "bureaucracy" of Git that keeps engineering teams moving fast without breaking things.
