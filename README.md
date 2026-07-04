@@ -50,8 +50,7 @@ To simulate a real-world collaborative environment, I follow these steps for eve
     ```
 5.  **PR & Merge:** Open a Pull Request on GitHub, review the diff, simulate a code review, and merge it cleanly into `main`.
 
----
-
+chages to branch so i can create a pull request
 ## Tech Stack & Tools Used
 
 *   **Version Control:** Git
