@@ -52,7 +52,7 @@ git show origin/feature-footer:README.md
 git revert <commit-hash (which i will get using git reflog)>
 
 other screenshots for the whole process are listed below.
-[alt text](<Screenshot (1903).png>)
+[Pics](<Screenshot (1903).png>)
 [alt text](<Screenshot (1902).png>)
 [alt text](<Screenshot (1901).png>)
 [alt text](<Screenshot (1900).png>)
