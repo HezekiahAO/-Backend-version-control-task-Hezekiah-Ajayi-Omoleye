@@ -24,7 +24,6 @@ c:\Users\Hezekiah Oluwasanmi\Pictures\Screenshots\Screenshot (1880).png
 ![Adding comments to PR](<Screenshot (1882).png>)
 ![Changes and comments added to PR](<Screenshot (1883).png>)
 ![Before merge](<Screenshot (1884).png>)
-![After merge](<Screenshot (1884)-1.png>)
 *Above: Screenshots showcas the merged PR, feedback comments, and final integration into the main branch.*
 
 ---
@@ -35,16 +34,19 @@ These were the core commands used to manage the code, resolve branch naming mism
 
 ```bash
 # 1. Inspect differences between local workspace and remote tracking branches
-git diff HEAD..origin/feature-footer -- README.md
+git diff HEAD..origin/header-footer -- README.md"(Specify the files i need to check here)"
+git diff HEAD..origin/feature-footer -- README.md"(Specify the files i need to check here)"
 
 # 2. Pull remote updates and smoothly slide them underneath local work
+git pull origin feature-header --rebase
 git pull origin feature-footer --rebase
 
 # 3. View a compressed, clean history of incoming remote commits
+git log HEAD..origin/feature-header --oneline
 git log HEAD..origin/feature-footer --oneline
 
 # 4. Safely inspect what a specific file looks like on the remote server
 git show origin/feature-footer:README.md
 
 # 5. Undo the effects of an existing commit while preserving history
-git revert <commit-hash>
+git revert <commit-hash (which i will get using git reflog)>
