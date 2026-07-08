@@ -14,6 +14,7 @@ I learnt about branching strategy to ensure that feature development never disru
 
 * **`feature-footer` (Renamed locally to `footer`)**: Dedicated branch for the footer component. 
     * *Note:* This branch was originally created as `feature-footer` on the remote server but was renamed to `footer` locally during development to streamline the workflow.
+    And If you do not push to a new repo, it won't appear remotely(on github).
 
 ---
 
