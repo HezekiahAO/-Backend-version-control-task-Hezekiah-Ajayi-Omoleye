@@ -50,5 +50,3 @@ git show origin/feature-footer:README.md
 
 # 5. Undo the effects of an existing commit while preserving history
 git revert <commit-hash (which i will get using git reflog)>
-
-other screenshots for the whole process are listed below.
